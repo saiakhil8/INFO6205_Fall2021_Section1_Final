@@ -16,7 +16,6 @@ public class LargestTreeTest {
         tree.addEdge(adj, 3, 4);
         Assert.assertEquals(3, tree.largestTree(adj,V));
     }
-
     @Test
     public void test2(){
         int[][] edges = {{0,1},{1,3},{1,4},{1,5},{2,6},{6,7}};
